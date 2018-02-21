@@ -58,7 +58,7 @@ class Money
     getter alternate_symbols : Array(String)?
     getter subunit : String?
     getter subunit_to_unit : UInt64
-    getter? symbol_first : Bool
+    getter symbol_first : Bool?
     getter html_entity : String?
     getter decimal_mark : String?
     getter thousands_separator : String?
