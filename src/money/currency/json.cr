@@ -10,7 +10,7 @@ class Money::Currency
     alternate_symbols:     {type: Array(String)?, setter: false},
     subunit:               {type: String?, setter: false},
     subunit_to_unit:       {type: UInt64, setter: false},
-    symbol_first?:         {type: Bool, setter: false},
+    symbol_first:          {type: Bool, setter: false},
     html_entity:           {type: String?, setter: false},
     decimal_mark:          {type: String?, setter: false},
     thousands_separator:   {type: String?, setter: false},
